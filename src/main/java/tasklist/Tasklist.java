@@ -1,4 +1,4 @@
-package tasklist.src.main.java;
+package tasklist;
 
 import java.sql.Timestamp;
 
