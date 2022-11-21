@@ -1,4 +1,4 @@
-package tasklist;
+package models;
 
 import java.sql.Timestamp;
 
@@ -13,7 +13,8 @@ import javax.persistence.Table;
 
 @Entity
 @NamedQueries({
-		@NamedQuery(name = "", query = "")
+		//	DTO Tasklistクラスの全てのカラムを取得してidが大きい順に並び替え表示するSQL
+		@NamedQuery(name = "getAllTasklists", query = "SELECT m FROM Tasklist AS m ORDER BY m.id DESC")
 })
 @Table(name = "tasks")
 public class Tasklist {
