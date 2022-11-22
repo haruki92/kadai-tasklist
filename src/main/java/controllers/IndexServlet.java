@@ -46,7 +46,7 @@ public class IndexServlet extends HttpServlet {
 		//		取得したリストtasklistsをリクエストスコープにセット
 		//		request.setAttribute("tasklists", tasklists);
 		//
-		//		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/index.jsp");
+		//		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/messages/index.jsp");
 		//		rd.forward(request, response);
 	}
 
