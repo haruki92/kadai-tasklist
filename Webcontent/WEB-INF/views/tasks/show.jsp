@@ -5,7 +5,7 @@
 	<c:param name="content">
 		<c:choose>
 			<c:when test="${ tasklist != null }">
-				<h2>id:${ message.id } のタスク詳細ページ</h2>
+				<h2>id:${ tasklist.id } のタスク詳細ページ</h2>
 				<table>
 					<tbody>
 						<tr>
