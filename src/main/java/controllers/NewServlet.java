@@ -46,7 +46,7 @@ public class NewServlet extends HttpServlet {
 		//		エラー回避のため文字数０のデータをフォームに渡す。
 		request.setAttribute("tasklist", new Tasklist());
 
-		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/messages/new.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/tasks/new.jsp");
 		rd.forward(request, response);
 	}
 
